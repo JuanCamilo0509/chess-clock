@@ -2285,6 +2285,34 @@
 		(color 0 0 0 0)
 		(uuid "ad5e4e78-13fa-40e6-bcc0-a1c0619a629a")
 	)
+	(no_connect
+		(at 116.84 45.72)
+		(uuid "445450f7-f9cd-4e1e-8f9b-8ad01772951b")
+	)
+	(no_connect
+		(at 77.47 27.94)
+		(uuid "5f4e1e6d-35ab-439d-82f0-d045275d2f64")
+	)
+	(no_connect
+		(at 120.65 68.58)
+		(uuid "85c931c0-f26c-4b2a-abc4-4bab6be32a52")
+	)
+	(no_connect
+		(at 107.95 71.12)
+		(uuid "9f22dcef-b716-46e0-b3f1-8de0ff4a5c4e")
+	)
+	(no_connect
+		(at 107.95 45.72)
+		(uuid "a44c3ec0-96fc-4023-b3c5-6e0d0488ad4e")
+	)
+	(no_connect
+		(at 77.47 35.56)
+		(uuid "a7a03f98-fb5c-4940-90ad-a666967f6a70")
+	)
+	(no_connect
+		(at 77.47 33.02)
+		(uuid "d0d5b0c1-a537-49b0-8980-deae733e51a0")
+	)
 	(wire
 		(pts
 			(xy 24.13 20.32) (xy 24.13 22.86)
@@ -2297,7 +2325,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 38.1) (xy 120.65 38.1)
+			(xy 107.95 38.1) (xy 116.84 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2307,7 +2335,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 30.48) (xy 120.65 30.48)
+			(xy 107.95 30.48) (xy 116.84 30.48)
 		)
 		(stroke
 			(width 0)
@@ -2357,7 +2385,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 35.56) (xy 120.65 35.56)
+			(xy 107.95 35.56) (xy 116.84 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2377,6 +2405,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 43.18) (xy 176.53 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c9b7a8e-65c8-4b87-b01e-362a883d6f14")
+	)
+	(wire
+		(pts
 			(xy 107.95 50.8) (xy 120.65 50.8)
 		)
 		(stroke
@@ -2387,7 +2425,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 33.02) (xy 120.65 33.02)
+			(xy 107.95 33.02) (xy 116.84 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2397,7 +2435,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 40.64) (xy 120.65 40.64)
+			(xy 107.95 40.64) (xy 116.84 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2427,7 +2465,17 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 123.19) (xy 24.13 125.73)
+			(xy 172.72 40.64) (xy 176.53 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "425be216-c72d-4f0d-8e7c-134e74b4b539")
+	)
+	(wire
+		(pts
+			(xy 24.13 121.92) (xy 24.13 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2444,6 +2492,16 @@
 			(type default)
 		)
 		(uuid "5bfe4edc-edd4-4a51-a514-f7f442347389")
+	)
+	(wire
+		(pts
+			(xy 172.72 45.72) (xy 176.53 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c3f4f90-7096-42b9-b320-c2bf8435a457")
 	)
 	(wire
 		(pts
@@ -2567,7 +2625,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 43.18) (xy 120.65 43.18)
+			(xy 107.95 43.18) (xy 116.84 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2607,6 +2665,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 38.1) (xy 176.53 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b85d1ac5-2d9c-4712-a2a2-e9ce69de455c")
+	)
+	(wire
+		(pts
 			(xy 55.88 35.56) (xy 59.69 35.56)
 		)
 		(stroke
@@ -2617,7 +2685,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 27.94) (xy 120.65 27.94)
+			(xy 107.95 27.94) (xy 116.84 27.94)
 		)
 		(stroke
 			(width 0)
@@ -2687,7 +2755,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 111.76) (xy 24.13 115.57)
+			(xy 24.13 111.76) (xy 24.13 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2849,7 +2917,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 24.13 125.73 270)
+		(at 24.13 124.46 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2859,7 +2927,7 @@
 		)
 		(uuid "37f0112b-0f0f-4aa0-b672-99f1ef464d38")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.13 132.5857 90)
+			(at 24.13 131.3157 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3495,7 +3563,7 @@
 		(dnp no)
 		(uuid "0372de27-11a4-4f09-8fd5-b9be8750afd1")
 		(property "Reference" "R1"
-			(at 24.13 44.704 0)
+			(at 24.13 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3503,8 +3571,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Resistor"
-			(at 24.13 36.83 0)
+		(property "Value" "1K"
+			(at 24.13 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3580,7 +3648,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hotswap:Hotswap_MX"
+		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
 			(at 53.34 55.88 0)
 			(effects
 				(font
@@ -3927,7 +3995,7 @@
 		(dnp no)
 		(uuid "90166647-2f4e-45a6-82a2-b30f65c59b4d")
 		(property "Reference" "R2"
-			(at 27.94 44.704 0)
+			(at 27.94 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3935,8 +4003,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Resistor"
-			(at 27.94 36.576 0)
+		(property "Value" "1K"
+			(at 27.94 38.354 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4011,7 +4079,7 @@
 				)
 			)
 		)
-		(property "Footprint" "hotswap:Hotswap_MX"
+		(property "Footprint" "kbd:keyswitch_cherrymx_hotswap_1u"
 			(at 53.34 44.45 0)
 			(effects
 				(font
@@ -4071,7 +4139,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Resistor"
+		(property "Value" "5.11 K"
 			(at 44.45 107.696 90)
 			(effects
 				(font
@@ -4190,7 +4258,7 @@
 	)
 	(symbol
 		(lib_id "Keyboard:Placeholder_Resistor")
-		(at 24.13 119.38 270)
+		(at 24.13 118.11 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4198,7 +4266,7 @@
 		(dnp no)
 		(uuid "c8d85644-82d7-4b2a-b647-63dc0ec481b0")
 		(property "Reference" "R6"
-			(at 15.24 117.856 90)
+			(at 19.05 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4206,8 +4274,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Resistor"
-			(at 15.24 120.396 90)
+		(property "Value" "1M resistor"
+			(at 21.59 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4216,7 +4284,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 22.352 119.38 0)
+			(at 22.352 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4225,7 +4293,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 24.13 119.38 90)
+			(at 24.13 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4234,7 +4302,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 24.13 119.38 0)
+			(at 24.13 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4457,7 +4525,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Resistor"
+		(property "Value" "5.11 K"
 			(at 60.96 107.9499 90)
 			(effects
 				(font
@@ -4516,10 +4584,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e6ae1e45-dc0f-4bdb-902f-cf176aea80af")
 		(property "Reference" "R3"
-			(at 31.75 44.958 0)
+			(at 31.75 42.164 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4527,8 +4594,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Resistor"
-			(at 31.75 36.83 0)
+		(property "Value" "1K"
+			(at 31.75 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4580,7 +4647,7 @@
 	)
 	(symbol
 		(lib_id "Display_Character:CA56-12CGKWA")
-		(at 148.59 35.56 0)
+		(at 144.78 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4589,7 +4656,7 @@
 		(fields_autoplaced yes)
 		(uuid "eb45d476-6a5f-4fa7-a2e1-27ba08a74b74")
 		(property "Reference" "U3"
-			(at 148.59 17.78 0)
+			(at 144.78 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4597,7 +4664,7 @@
 			)
 		)
 		(property "Value" "CA56-12CGKWA"
-			(at 148.59 20.32 0)
+			(at 144.78 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4605,7 +4672,7 @@
 			)
 		)
 		(property "Footprint" "Display_7Segment:CA56-12CGKWA"
-			(at 148.59 50.8 0)
+			(at 144.78 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4614,7 +4681,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.kingbright.com/attachments/file/psearch/000/00/00/CA56-12CGKWA(Ver.9A).pdf"
-			(at 137.668 34.798 0)
+			(at 133.858 34.798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4623,7 +4690,7 @@
 			)
 		)
 		(property "Description" "4 digit 7 segment Green LED, common anode"
-			(at 148.59 35.56 0)
+			(at 144.78 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
